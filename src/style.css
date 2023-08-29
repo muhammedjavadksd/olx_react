@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@500&family=Josefin+Sans:wght@300&family=Kanit:ital,wght@0,100;0,500;1,400&family=Karla&family=Martel+Sans:wght@600&family=Mulish:ital,wght@0,300;1,700&family=Oswald:wght@300&family=Poppins:wght@200;500;600&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;300;400&family=Saira&display=swap');
+
+* {
+    margin: unset;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a, li, div {
+    font-family: 'Inter', sans-serif;
+    ;
+}
+
+.main_container {
+    width: 98%;
+    margin: auto;
+}
+
+.loginBox {
+    width: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+}
+
+.loginScreen {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.loginContent {
+    width: 100%;
+}
+
+.logoLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logoLogin>img {
+    width: 100px;
+
+}
+
+.formGroup>label {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formGroup>input, textarea {
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: unset;
+}
+
+footer {
+    width: 100%;
+}
+
+.own_alert{
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.danger{
+    background-color: rgba(212, 44, 44, 0.377);
+    border: 0.2px solid red;
+}
+.success{
+    background-color: rgba(41, 247, 0, 0.377);
+    border: 0.2px solid rgb(1, 138, 12);
+}
+
+.loader {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.hide{
+    display: none;
+}
+
+
+.show{
+    display: block;
+}

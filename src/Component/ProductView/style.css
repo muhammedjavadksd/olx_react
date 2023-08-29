@@ -1,0 +1,75 @@
+.bannerSlider{ 
+    margin-bottom: 10px;
+    background-color: white; 
+    background-color: black; 
+    padding-bottom: 10px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerSlider>img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.leftAds {
+    width: 70%;
+    float: left;
+}
+
+.rightAds{
+    width: 29%;
+    float: right;
+}
+
+.adsContainer{
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+
+.productBody{
+    background-color: #f2f2f2;
+}
+
+.whiteBoxContent>span{
+    color: #6b6060;
+    font-size: 14px;
+}
+
+
+.whiteBoxContent>p{
+    margin-bottom: 8px;
+}
+
+.whiteBoxContent>h2{
+    margin-bottom: 10px;
+}
+
+.toperUserData  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.toperUserData>h2{
+    font-size: 20px;
+}
+
+.toperUserData>img{
+    border-radius: 50px;
+    height: 68px;
+    width: 68px;
+ 
+}
+
+.contactBtn{
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border: 2px solid #002f34;
+    padding: 13px 31px;
+}

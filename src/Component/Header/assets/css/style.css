@@ -1,0 +1,154 @@
+.logo>img{
+    width: 48px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerOlx {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.leftHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 2;
+    width: 100%;
+}
+
+.logoRight {
+    width: 100%;
+}
+
+.logoRight>select {
+    border: none;
+    padding: 11px;
+    width: 100%;
+    outline: none; 
+    border: 1px solid #002f34; 
+}
+
+.midHeader {
+    flex: 4;
+}
+
+.rightHeader {
+    flex: 2;
+}
+
+.searchForm {
+    display: flex;
+    border: 1px solid #002f34;
+}
+
+.searchForm>input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.searchForm>button {
+    background-color: #002f34;
+    color: white;
+    padding: 10px 15px;
+}
+
+.rightHeader {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightHeader>button {
+    border: unset;
+    flex: 1;
+    background-color: unset;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.rightHeader>button>a{
+    text-decoration: none;
+    color: black;
+    margin-top: -3px;
+    display: block;
+}
+
+button.sellBtn {
+    background-color: white;
+    padding: 12px 1px;
+    border-radius: 20px;
+    flex: 2;
+    border: 1px solid #002f34;
+    font-size: 14px;
+}
+
+.signInSignupModel {
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.signInSignUpWrapper {
+    max-width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.bannerSign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bannerSign>img {
+    width: 119px;
+    margin-bottom: 10px;
+}
+
+.startAccountWith>button {
+    width: 100%;
+    background-color: unset;
+    border: 2px solid #000;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.loginWithPhone>p {
+    margin-bottom: 8px;
+    margin-top: 17px;
+}
+
+.loginWithPhone {
+    text-align: center;
+}
+
+.startAccountWith>button>i {
+    font-size: 20px;
+    margin-right: 7px;
+}

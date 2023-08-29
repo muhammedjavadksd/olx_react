@@ -1,0 +1,18 @@
+.listNav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding: 9px;
+    gap: 15px;
+}
+
+.listNav>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}

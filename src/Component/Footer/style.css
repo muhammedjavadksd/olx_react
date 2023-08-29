@@ -1,0 +1,12 @@
+.footerBox {
+    background-color: #002f34;
+    padding: 10px;
+}
+
+.boxFlexFooter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    padding: 4px 0px;
+}
